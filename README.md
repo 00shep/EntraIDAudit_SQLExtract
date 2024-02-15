@@ -33,8 +33,8 @@ If you plan to use sign-in logs from Entra via Log Analytics - I've included som
 This originally started as a way to sync HR data from UltiPro/UKG into Active Directory -- keeping employee attributes up to date. 
 Getting better reporting on licensing based on user activity was an iteration that came later.
 
-v1.0 -- https://00shep.blogspot.com/2021/03/ultipro-sync-user-attributes-to-active.html
-v0.1 -- https://00shep.blogspot.com/search/label/UltiPro
+* v1.0 -- https://00shep.blogspot.com/2021/03/ultipro-sync-user-attributes-to-active.html
+* v0.1 -- https://00shep.blogspot.com/search/label/UltiPro
 --------------
 
 The goal is to achieve a PowerBI report that looks something like this. You'll have to make your own .pbix
