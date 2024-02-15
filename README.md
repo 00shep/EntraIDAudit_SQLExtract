@@ -35,6 +35,4 @@ If you plan to use sign-in logs from Entra via Log Analytics - I've included som
 The goal is to achieve a PowerBI report that looks something like this. You'll have to make your own .pbix
 
 
-
-![image](https://github.com/00shep/EntraIDAudit_SQLExtract/assets/67474975/b1ee982c-f91a-446b-9ca4-907e9db66782)
-
+![image](https://github.com/00shep/EntraIDAudit_SQLExtract/assets/67474975/c980e76d-f85b-4d8a-8d60-366a381740cd)
