@@ -1,0 +1,6 @@
+SigninLogs
+| extend errorCode = (Status.errorCode)
+| where errorCode == 0
+| where TimeGenerated > ago(90d)
+| summarize arg_max(TimeGenerated,*), _count=count() by UserPrincipalName
+| project UserPrincipalName,TimeGenerated,_count

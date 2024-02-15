@@ -1,0 +1,5 @@
+AADNonInteractiveUserSignInLogs
+| where Status has "\"errorCode\":0"
+| where TimeGenerated > ago(90d)
+| summarize arg_max(TimeGenerated,*), _count=count() by UserPrincipalName
+| project UserPrincipalName,TimeGenerated,Status,_count
